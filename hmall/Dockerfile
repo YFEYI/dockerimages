@@ -5,4 +5,4 @@
 #RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # 2024.9.02下载的镜像
-#FROM nacos-server:v2.1.0-silm
+FROM nacos-server:v2.1.0-silm
