@@ -5,4 +5,8 @@
 #RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # 2024.9.02下载的镜像
-FROM nacos/nacos-server:v2.1.0-slim
+#FROM nacos/nacos-server:v2.1.0-slim
+
+#2024.10.26下载的镜像
+FROM elasticsearch:7.12.1
+
