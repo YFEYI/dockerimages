@@ -8,5 +8,7 @@
 #FROM nacos/nacos-server:v2.1.0-slim
 
 #2024.10.26下载的镜像
-FROM elasticsearch:7.12.1
+#FROM elasticsearch:7.12.1
 
+#2026.01.01下载的镜像
+FROM gitea/gitea:1.25
